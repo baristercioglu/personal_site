@@ -9,3 +9,7 @@ navbar:
       href: about.html
     - text: "Research"
       href: research.html
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'

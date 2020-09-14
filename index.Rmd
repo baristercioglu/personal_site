@@ -1,5 +1,10 @@
 ---
-title: "Remzi Baris Tercioglu"
+
 ---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="Picture_Tercioglu.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+
 
 I am a PhD candidate at the New School for Social Research. My full CV is available [here](Curriculum_Vitae.pdf).
