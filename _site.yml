@@ -1,9 +1,11 @@
-name: "personal-website"
+name: "Remzi Baris Tercioglu"
 output_dir: "."
 navbar:
-  title: "Personal Website"
+  title: "Remzi Baris Tercioglu"
   left:
     - text: "Home"
       href: index.html
-    - text: "About Me"
+    - text: "Teaching"
       href: about.html
+    - text: "Research"
+      href: research.html

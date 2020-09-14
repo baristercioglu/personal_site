@@ -1,5 +1,5 @@
 ---
-title: "Personal Website"
+title: "Remzi Baris Tercioglu"
 ---
 
-Hello, World!
+I am a PhD candidate at the New School for Social Research. My full CV is available [here](Curriculum_Vitae.pdf).
