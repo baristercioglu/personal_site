@@ -6,5 +6,7 @@
 
 <img src="Picture_Tercioglu.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
+I am an Economics PhD candidate at the New School for Social Research. I am interested in applied macroeconomics and political economy. 
 
-I am a PhD candidate at the New School for Social Research. My full CV is available [here](Curriculum_Vitae.pdf).
+
+My CV is available [here](Curriculum_Vitae.pdf).
