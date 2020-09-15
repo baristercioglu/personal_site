@@ -6,7 +6,4 @@ title: "Remzi Baris Tercioglu"
 
 <img src="Picture_Tercioglu.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I am an Economics PhD candidate at the New School for Social Research. I am interested in applied macroeconomics and political economy. 
-
-
-My CV is available [here](Curriculum_Vitae.pdf).
+I am an Economics PhD candidate at the New School for Social Research. I am very fortunate to have received my economics training from an institution that values pluralism highly. The appeal of pluralistic economic approaches is the openness to new ideas and policies that aim for social justice and equal opportunity for everyone. The New School has provided me with a unique political economy perspective, which I use with the critical macroeconomic theory to understand the current questions of our economies. My research interests lie in economic growth, inequality, and secular stagnation. In particular, I am interested in the slowdown of output and productivity growth in the US economy after 1980 and its political economy implications including wage stagnation and chronic demand problems. In my research, I benefit from heterodox approaches and Bayesian statistics.  
