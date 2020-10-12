@@ -6,7 +6,7 @@ My research interest lies in economic growth and distribution. I mainly study th
 
 ### Research Fields
 
-Applied Macroeconomics, Economic Growth and Distribution, Inequality, Business Cycles
+Applied Macroeconomics, Economic Growth and Distribution, Inequality, Business Cycles, Bayesian Econometrics.
 
 ### Working papers 
 
@@ -14,6 +14,6 @@ Applied Macroeconomics, Economic Growth and Distribution, Inequality, Business C
 
 The existing output gap estimations rely on aggregate output data, assume constant utilization over industries; however, each sector has its cycle, and missing sectoral dynamics creates unreliable capacity measures. By using a new peak to peak method, motivated by the business cycle analysis of Mitchell (1946), I estimate output gaps of 20 US industries over 1948-2019. For the last cycles of industries, I estimate a generalized Poisson model with Bayesian statistical inference, predicting the next peaks' timing and magnitude for 20 industries. I define sectoral waiting times between peak years and the annual growth rate from one peak to another as model parameters and estimate their marginal posterior distributions by Random Walk Metropolis-Hastings (RWMH) simulations. I find a generally negative output gap at the aggregate except for the second half of the 1960s, and a persistent excess-capacity since 1990, unlike the Congressional Budget Office (CBO) and the Hodrick–Prescott (HP) filter. I estimate a Phillips curve with my measure of the output gap and find a positive relationship with inflation post-1990 with a lower slope than the 1949-1989 period. My findings show that it is possible to produce more output without generating inflation by demand supporting policies, therefore avoiding secular stagnation.
 
-**Rethinking growth and inequality in the US: What is the role of measurement of GDP? New School for Social Research, Department  of  Economics Working  Papers No. 1906. Available  at: https://ideas.repec.org/p/new/wpaper/1906.html.**
+**Rethinking growth and inequality in the US: What is the role of measurement of GDP? New School for Social Research, Department  of  Economics Working  Papers No. 1906. Available  at: https://ideas.repec.org/p/new/wpaper/1906.html. Revise & Resubmit, *International Review of Applied Economics*.**
 
 Five sectors have increased their contribution to US GDP growth post-1973: Professional-business services (PBS), finance, information, healthcare, and arts-entertainment. Among them, finance, healthcare, and PBS have questionable foundations to be regarded as final consumption of households. By treating expenditures on finance, healthcare, and PBS as intermediate consumption, I find i) a deeper slowdown of real output growth post-1973, in particular, post-2000, ii) a more moderate rise in consumption share since 1980, and iii) a sharper decline in labor share, defined as the compensation of employees over GDP since 1985 compared to the National Income and Product Accounts. The paper contributes to the literature on secular stagnation and rising inequality from the measurement approach.
