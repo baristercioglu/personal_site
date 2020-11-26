@@ -1,5 +1,8 @@
 ---
 title: "Teaching"
+output:
+  html_document:
+    theme: darkly
 ---
 
 My teaching fields are applied macroeconomics, microeconomic theory, econometrics, mathematical economics and national income accounting. 

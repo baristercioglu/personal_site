@@ -1,5 +1,8 @@
 ---
 title: "Curriculum Vitae"
+output:
+  html_document:
+    theme: darkly
 ---
 
 My CV is available [here](Curriculum_Vitae.pdf).
