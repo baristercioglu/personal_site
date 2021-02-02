@@ -2,7 +2,7 @@
 title: "Remzi Baris Tercioglu"
 output:
   html_document:
-    theme: darkly
+    theme: cosmo
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">

@@ -2,7 +2,7 @@
 title: "Contact"
 output:
   html_document:
-    theme: darkly
+    theme: cosmo
 ---
 
 New School for Social Research

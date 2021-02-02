@@ -2,7 +2,7 @@
 title: "Research"
 output:
   html_document:
-    theme: darkly
+    theme: cosmo
 ---
 
 My research interest lies in economic growth and distribution. I mainly study the political economy implications of the slowdown of output and productivity growth in the United States since 1980, including wage stagnation and chronic aggregate demand problems.  My dissertation consists of three essays on the measurement of US growth, inequality, and output gap since 1947. 
