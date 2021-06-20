@@ -13,7 +13,7 @@ Applied Macroeconomics, Economic Growth and Distribution, Inequality, Business C
 
 ### Publications
 
-**"Rethinking growth and inequality in the US: What is the role of measurement of GDP?" *International Review of Applied Economics* Volume 35, Issue 3-4. https://doi.org/10.1080/02692171.2021.1892038 **
+**"Rethinking growth and inequality in the US: What is the role of measurement of GDP?" *International Review of Applied Economics* 35:3-4, 551-576. https://doi.org/10.1080/02692171.2021.1892038 **
 
 Five sectors have increased their contribution to US GDP growth since 1973: professional-business services (PBS), finance, information, healthcare, and arts-entertainment. Among these, however, finance, healthcare, and PBS have questionable foundations for being regarded as final consumption of households. Contra published National Income and Product Accounts, treating expenditures on finance, healthcare, and PBS as intermediate consumption reveals a significantly different picture of US economic growth, including i) a deeper slowdown of real output growth since 1973; ii) a more moderate rise in consumption share since 1980; and iii) a sharper decline in labor share, defined as the compensation of employees over GDP since 1985. Through a measurement approach, this paper thus contributes to the literature on secular stagnation and rising inequality in the United States.
 
