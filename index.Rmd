@@ -9,5 +9,5 @@ output:
 
 <img src="Picture_Tercioglu.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I am an Economics PhD candidate at the New School for Social Research. My research interests lie in economic growth, inequality, and secular stagnation. In particular, I am interested in the slowdown of output and productivity growth in the US economy after 1980 and its political economy implications including wage stagnation and chronic demand problems. In my research, I benefit from heterodox approaches and Bayesian statistics.  
+I obtained my Economics PhD degree from the New School for Social Research. My research interests lie in economic growth, inequality, and secular stagnation. In particular, I am interested in the slowdown of output and productivity growth in the US economy after 1980 and its political economy implications including wage stagnation and chronic demand problems. In my research, I benefit from critical macroeconomic theory and Bayesian statistics. Currently, I am working as a short-term consultant at the World Bank, Washington DC. 
 
