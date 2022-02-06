@@ -5,7 +5,7 @@ output:
     theme: cosmo
 ---
 
-My teaching fields are applied macroeconomics, microeconomic theory, econometrics, mathematical economics and national income accounting. 
+**Teaching fields**: Applied macroeconomics, microeconomic theory, econometrics, mathematical economics and national income accounting. 
 
 ### Teaching Fellow (Instructor of Note)
 

@@ -9,5 +9,5 @@ output:
 
 <img src="Picture_Tercioglu.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-I obtained my Economics PhD degree from the New School for Social Research. My research interests lie in economic growth, inequality, and secular stagnation. In particular, I am interested in the slowdown of output and productivity growth in the US economy after 1980 and its political economy implications including wage stagnation and chronic demand problems. In my research, I benefit from critical macroeconomic theory and Bayesian statistics. Currently, I am working as a short-term consultant at the World Bank, Washington DC. 
+I obtained my Economics PhD degree from the New School for Social Research in May 2021. My research interests lie in economic growth, macroeconomics stabilization policies and climate macroeconomics. In particular, I am interested in analyzing the macroeconomic impact of climate policy reforms including carbon taxation, fuel subsidy reforms, and green public investment. I work on the econometric and model-based estimations of fiscal multipliers of developing economies to evaluate their green transitions costs. Currently, I am working as a consultant at the Chief Economist Office of the Equitable Growth, Finance, and Institutions Practice Group of the World Bank, located in Washington DC. 
 
