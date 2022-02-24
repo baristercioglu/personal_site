@@ -15,7 +15,7 @@ output:
 
 ### Working papers 
 
-**"A sectoral approach to measuring output gap: Evidence from 20 US sectors over 1948-2020.Accepted for publication in *Macroeconomic Dynamics***
+**"A sectoral approach to measuring output gap: Evidence from 20 US sectors over 1948-2020." Accepted for publication in *Macroeconomic Dynamics***
 
 **Abstract**: The existing output gap measures for the US economy rely on aggregate data and assume a constant output gap over sectors (see Coibion et al. (2018) and Owyang et al. (2018)); however, each sector has its cycle, which does not necessarily match the business cycle (Burns and Mitchell, 1946). By modeling sectoral cycles based on their investment cycles with a non-parametric method, I estimate output gaps of 20 US sectors over 1948--2020. The weighted mean output gap indicates a persistent spare capacity in the last business cycle, pointing to insufficient stabilization policies behind secular stagnation. Phillips curve estimations with the weighted quartiles of sectoral output gaps show that the output gap of bottleneck sectors (weighted Q3) is correlated strongly with inflation over 1950--2020. Policymakers can track bottleneck sectors to mitigate inflationary pressures while supporting the sectors with negative output gaps to stabilize the output at its potential. My findings show that it is possible to produce more output by sector-level demand supporting policies without generating inflation.
 
