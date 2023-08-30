@@ -13,8 +13,8 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +59,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -257,7 +258,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fas fa-envelope fa-lg"></span>
+    <span class="fa fa-envelope fa-lg"></span>
      
   </a>
 </li>
@@ -275,21 +276,83 @@ $(document).ready(function () {
 </div>
 
 
-<p><strong>Research Fields</strong>: Applied Macroeconomics, Economic Growth and Distribution, Inequality, Business Cycles, Climate Macroeconomics.</p>
+<p><strong>Research Fields</strong>: Applied Macroeconomics, Economic
+Growth and Distribution, Inequality, Business Cycles, Climate
+Macroeconomics.</p>
 <div id="publications" class="section level3">
 <h3>Publications</h3>
-<p><strong>“Rethinking growth and inequality in the US: What is the role of measurement of GDP?” <em>International Review of Applied Economics</em> 35:3-4, 551-576. <a href="https://doi.org/10.1080/02692171.2021.1892038" class="uri">https://doi.org/10.1080/02692171.2021.1892038</a> </strong></p>
-<p><strong>Abstract</strong>: Five sectors have increased their contribution to US GDP growth since 1973: professional-business services (PBS), finance, information, healthcare, and arts-entertainment. Among these, however, finance, healthcare, and PBS have questionable foundations for being regarded as final consumption of households. Contra published National Income and Product Accounts, treating expenditures on finance, healthcare, and PBS as intermediate consumption reveals a significantly different picture of US economic growth, including i) a deeper slowdown of real output growth since 1973; ii) a more moderate rise in consumption share since 1980; and iii) a sharper decline in labor share, defined as the compensation of employees over GDP since 1985. Through a measurement approach, this paper thus contributes to the literature on secular stagnation and rising inequality in the United States.</p>
+<p><strong>“Rethinking growth and inequality in the US: What is the role
+of measurement of GDP?” <em>International Review of Applied
+Economics</em> 35:3-4, 551-576. <a
+href="https://doi.org/10.1080/02692171.2021.1892038"
+class="uri">https://doi.org/10.1080/02692171.2021.1892038</a>
+</strong></p>
+<p><strong>Abstract</strong>: Five sectors have increased their
+contribution to US GDP growth since 1973: professional-business services
+(PBS), finance, information, healthcare, and arts-entertainment. Among
+these, however, finance, healthcare, and PBS have questionable
+foundations for being regarded as final consumption of households.
+Contra published National Income and Product Accounts, treating
+expenditures on finance, healthcare, and PBS as intermediate consumption
+reveals a significantly different picture of US economic growth,
+including i) a deeper slowdown of real output growth since 1973; ii) a
+more moderate rise in consumption share since 1980; and iii) a sharper
+decline in labor share, defined as the compensation of employees over
+GDP since 1985. Through a measurement approach, this paper thus
+contributes to the literature on secular stagnation and rising
+inequality in the United States.</p>
+<p><strong>“A sectoral approach to measuring output gap: Evidence from
+20 US sectors over 1948-2020.” <em>Macroeconomic Dynamics</em>, 1-23. <a
+href="https://doi.org/10.1017/S1365100522000141"
+class="uri">https://doi.org/10.1017/S1365100522000141</a></strong></p>
+<p><strong>Abstract</strong>: The existing output gap measures for the
+US economy rely on aggregate data and assume a constant output gap over
+sectors (see Coibion et al. (2018) and Owyang et al. (2018)); however,
+each sector has its cycle, which does not necessarily match the business
+cycle (Burns and Mitchell, 1946). By modeling sectoral cycles based on
+their investment cycles with a non-parametric method, I estimate output
+gaps of 20 US sectors over 1948–2020. The weighted mean output gap
+indicates a persistent spare capacity in the last business cycle,
+pointing to insufficient stabilization policies behind secular
+stagnation. Phillips curve estimations with the weighted quartiles of
+sectoral output gaps show that the output gap of bottleneck sectors
+(weighted Q3) is correlated strongly with inflation over 1950–2020.
+Policymakers can track bottleneck sectors to mitigate inflationary
+pressures while supporting the sectors with negative output gaps to
+stabilize the output at its potential. My findings show that it is
+possible to produce more output by sector-level demand supporting
+policies without generating inflation.</p>
 </div>
 <div id="working-papers" class="section level3">
 <h3>Working papers</h3>
-<p><strong>“A sectoral approach to measuring output gap: Evidence from 20 US sectors over 1948-2020.” Accepted for publication in <em>Macroeconomic Dynamics</em></strong></p>
-<p><strong>Abstract</strong>: The existing output gap measures for the US economy rely on aggregate data and assume a constant output gap over sectors (see Coibion et al. (2018) and Owyang et al. (2018)); however, each sector has its cycle, which does not necessarily match the business cycle (Burns and Mitchell, 1946). By modeling sectoral cycles based on their investment cycles with a non-parametric method, I estimate output gaps of 20 US sectors over 1948–2020. The weighted mean output gap indicates a persistent spare capacity in the last business cycle, pointing to insufficient stabilization policies behind secular stagnation. Phillips curve estimations with the weighted quartiles of sectoral output gaps show that the output gap of bottleneck sectors (weighted Q3) is correlated strongly with inflation over 1950–2020. Policymakers can track bottleneck sectors to mitigate inflationary pressures while supporting the sectors with negative output gaps to stabilize the output at its potential. My findings show that it is possible to produce more output by sector-level demand supporting policies without generating inflation.</p>
+<p><strong>“A Climate-Fiscal Policy Mix to Achieve Türkiye’s Net-Zero
+Ambition under Feasibility Constraints.” (with Christian Schoder) Policy
+Research working paper ; no. WPS 10551 Washington, D.C. : World Bank
+Group.</strong></p>
+<p><strong>Abstract</strong>: This paper employs an estimated dynamic
+stochastic open-economy macro framework to identify policy interventions
+that allow Türkiye to achieve net-zero emissions by 2053 while
+respecting important feasibility constraints such as fiscal
+consolidation and sovereign debt stability as well as compensation of
+low-income households. The policy mix includes a carbon tax, a renewable
+energy subsidy, transfer payments, public infrastructure investments, a
+bad bank for stranded fossil fuel assets, and the phase-out of fossil
+fuel subsidies and public investment. Although the proposed policy
+package has only moderate effects on gross domestic product, transition
+risks involve declining exports and fossil asset stranding. The paper
+highlights the importance of transparent policy communication and a
+credible commitment to the net-zero agenda to ensure an orderly
+transition. Improving the rule of law and access to green finance
+considerably support the private sector-led low-carbon transition.</p>
 </div>
 <div id="work-in-progress" class="section level3">
 <h3>Work in Progress</h3>
-<p><strong>“A Bayesian Open-Economy Endogenous-Growth Dynamic Stochastic Energy Macro Model for Climate Change Mitigation Policy Analysis” with Christian Schoder.</strong></p>
-<p><strong>“Revisiting Macroeconomic Fluctuations in the Euro Area: An Estimated Dynamic Stochastic Disequilibrium Model” with Christian Schoder.</strong></p>
+<p><strong>“Revisiting Macroeconomic Fluctuations in the Euro Area: An
+Estimated Dynamic Stochastic Disequilibrium Model.” (with Christian
+Schoder)</strong></p>
+<p><strong>“OMEGA - An Open-Economy Multi-Sector Endogenous-Growth
+Assessment Model for Climate Policy Analysis in an Emerging Market
+Context.” (with Christian Schoder)</strong></p>
 </div>
 
 
